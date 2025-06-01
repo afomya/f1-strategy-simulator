@@ -19,7 +19,29 @@ The goal is to build a modular, reproducible engine for:
 ---
 
 ## 📁 Project Structure
-<pre><code>f1-strategy-simulator/ │ ├── data/ # Raw and processed datasets │ ├── raw/ # Unaltered data pulled from FastF1 or other sources │ └── processed/ # Cleaned and feature-enriched datasets │ ├── notebooks/ # Jupyter notebooks for EDA and prototyping │ ├── src/ # Core project code │ ├── ingest/ # Scripts for downloading and parsing data │ ├── features/ # Feature engineering utilities │ ├── modeling/ # Driver skill estimation, degradation modeling │ └── simulation/ # Race simulation and strategy optimization logic │ ├── dashboards/ # Streamlit apps and interactive tools │ ├── reports/ # Weekly progress reports, data schema documentation │ ├── tests/ # Unit tests for critical functions │ ├── environment.yml # Conda environment file for reproducibility └── README.md # Project overview and documentation </code></pre>
+f1-strategy-simulator/
+│
+├── data/               # Raw and processed datasets
+│   ├── raw/            # Unaltered data from FastF1 or other sources
+│   └── processed/      # Cleaned, structured data for modeling
+│
+├── notebooks/          # Jupyter notebooks for EDA and experiments
+│
+├── src/                # Core project codebase
+│   ├── ingest/         # Scripts for data collection
+│   ├── features/       # Feature generation and transformation
+│   ├── modeling/       # Degradation models, driver skill modeling
+│   └── simulation/     # Race strategy engine and simulations
+│
+├── dashboards/         # Streamlit or Plotly Dash interfaces
+│
+├── reports/            # Weekly progress reports and data documentation
+│
+├── tests/              # Unit tests for modules
+│
+├── environment.yml     # Reproducible conda environment
+└── README.md           # Project overview and usage instructions
+
 
 
 ---
