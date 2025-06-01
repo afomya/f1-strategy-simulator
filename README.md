@@ -19,4 +19,29 @@ The goal is to build a modular, reproducible engine for:
 ---
 
 ## 📁 Project Structure
+f1-strategy-simulator/
+│
+├── data/ # Raw and processed data
+├── notebooks/ # EDA and exploration
+├── src/ # Modular codebase
+├── reports/ # Project documentation and weekly updates
+├── dashboards/ # Streamlit apps and visual interfaces
+├── tests/ # Unit tests
+├── environment.yml # Conda environment file
+└── README.md
 
+
+---
+
+## 📦 Tech Stack
+
+- `FastF1`, `pandas`, `scikit-learn`, `statsmodels`
+- `matplotlib`, `seaborn`, `plotly`, `streamlit`
+- Version control via `git`, with GitHub for collaboration and issue tracking
+
+---
+
+## 📅 Status
+
+- ✅ Project initialized (Week 1)
+- ⏳ Next: data schema design + simulator skeleton
