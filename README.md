@@ -19,6 +19,7 @@ The goal is to build a modular, reproducible engine for:
 ---
 
 ## 📁 Project Structure
+
 f1-strategy-simulator/
 │
 ├── data/               # Raw and processed datasets
@@ -41,6 +42,7 @@ f1-strategy-simulator/
 │
 ├── environment.yml     # Reproducible conda environment
 └── README.md           # Project overview and usage instructions
+
 
 
 
